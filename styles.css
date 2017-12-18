@@ -120,7 +120,6 @@ header nav{
   top: 0;
   right: 15%;
   font-size: 20px;
-
 }
 header:after{
   content: "";
@@ -219,4 +218,98 @@ header nav li{
   padding-top: 20px;
   left: 55%;
   font-size: 20px;
+}
+#background3 img{
+  width: 100%;
+}
+#background3{
+  max-height: 100%;
+  position: relative;
+  overflow: hidden;
+  color: white;
+}
+.background-title3{
+  position: absolute;
+  top: 39%;
+  left: 53%;
+  width: 100%;
+  padding-right: -100px;
+  font-size: 110px;
+  font-family: arial;
+  font-weight: bold;
+}
+#partials{
+  position: absolute;
+  top: 25%;
+  width: 400px;
+  height: 100px;
+  left: 20%;
+  font-size: 20px;
+
+}
+#background4{
+  background-color: #ffe92f;
+  height: 1536px;
+  width: 1500;
+  position: relative;
+}
+.img3{
+  float: left;
+}
+.peaches{
+  padding-top: 1.5%;
+  position: relative;
+  left: 40%;
+}
+.blueberry{
+ position: absolute;
+ left: 61%;
+ padding-top: 0.67%;
+}
+.berry{
+  position: absolute;
+  padding-top: 16.05%;
+  left: 61%;
+}
+.yogurt{
+  position: relative;
+  left: 40%;
+  padding-top: 30px;
+}
+.kaki{
+  position: absolute;
+  padding-top: 31.9%;
+  left: 50.5%;
+}
+.background-title4{
+  font-size: 100px;
+  font-weight: bold;
+  font-family: arial;
+  padding-bottom: 20px;
+  padding-top: 100px;
+}
+.background-text4{
+  text-align: center;
+}
+.btn2 a{
+  background: rgba(73,155,234,1);
+  background: -moz-linear-gradient(left, rgba(73,155,234,1) 0%, rgba(85,133,162,1) 0%, rgba(85,133,162,1) 100%);
+  background: -webkit-gradient(left top, right top, color-stop(0%, rgba(73,155,234,1)), color-stop(0%, rgba(85,133,162,1)), color-stop(100%, rgba(85,133,162,1)));
+  background: -webkit-linear-gradient(left, rgba(73,155,234,1) 0%, rgba(85,133,162,1) 0%, rgba(85,133,162,1) 100%);
+  background: -o-linear-gradient(left, rgba(73,155,234,1) 0%, rgba(85,133,162,1) 0%, rgba(85,133,162,1) 100%);
+  background: -ms-linear-gradient(left, rgba(73,155,234,1) 0%, rgba(85,133,162,1) 0%, rgba(85,133,162,1) 100%);
+  background: linear-gradient(to right, rgba(73,155,234,1) 0%, rgba(85,133,162,1) 0%, rgba(85,133,162,1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#499bea', endColorstr='#5585a2', GradientType=1 );
+  color: white;
+  display: block;
+  width: 160px;
+  font-size: 18px;
+  text-align: center;
+  padding: 16px;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: monospace;
+  top: 90%;
+  left: 45%;
+  position: absolute;
 }
